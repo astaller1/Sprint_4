@@ -24,7 +24,7 @@
 7. **`test_get_books_genre_returns_current_dict`**  
    Метод `get_books_genre`. Проверяет вывод текущего словаря `books_genre`.
 
-8. **`test_get_books_for_children_returns_books_for_children`**  
+8. **`test_get_books_for_children_returns_only_books_for_children`**  
    Метод `get_books_for_children`. Проверяет фильтрацию книг, подходящих для детей (исключение жанров с возрастным рейтингом).
 
 9. **`test_add_book_in_favorites_successfully_adds_book`**  
@@ -34,4 +34,4 @@
     Метод `delete_book_from_favorites`. Проверяет успешное удаление книги из избранного.
 
 11. **`test_get_list_of_favorites_books_shows_current_favorite_list`**  
-    Метод `get_list_of_favorites_books`. Проверяет получение актуального списка избранного изменений.
+    Метод `get_list_of_favorites_books`. Проверяет получение актуального списка избранного.
